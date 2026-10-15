@@ -5,7 +5,7 @@ Use **bsx-email-mailchimp.zip**, not the standalone browser HTML or `bsx-email-d
 1. In Mailchimp's custom-code template workflow, choose **Import ZIP** (often under **Code your own**). Availability and labels depend on your plan and editor.
 2. Upload `bsx-email-mailchimp.zip` as-is. It contains `index.html` at the ZIP root and its image files in `assets/`. Do not unzip and paste the HTML into a drag-and-drop content block: the relative images need to be uploaded and rewritten by the ZIP importer.
 3. Preview desktop and mobile. Mailchimp should host and rewrite local image references. Confirm the hero building, gradient banner, portraits, and button arrows all load. If a background is missing, upload `hero-building.jpg` and `gift-background.png` to Content Studio and replace the matching `background`, inline CSS `url(...)`, and VML `src` references with those hosted HTTPS URLs.
-4. Replace both registration links and the five social links, which still use clearly named example.com placeholders. They are not ready for a live campaign.
+4. Both registration buttons link to https://bluesquare.my.salesforce-sites.com/BSXOpenHouseRSVP. Replace the five social links, which still use clearly named example.com placeholders, before sending.
 5. Preview using audience data so Mailchimp resolves the company, year, mailing address, unsubscribe, and preference merge tags. Confirm the audience's physical address is correct.
 6. Send a test through Mailchimp and check the actual desktop/mobile inboxes before sending a campaign. No Mailchimp account, import, or inbox testing was performed from this workspace.
 

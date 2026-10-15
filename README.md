@@ -6,7 +6,7 @@ The email uses a 600px table layout with a mobile breakpoint at 480px. Text is e
 
 Before sending:
 
-- Replace `https://example.com/replace-with-rsvp-url` (two occurrences) with the registration URL.
+- Both registration buttons use `https://bluesquare.my.salesforce-sites.com/BSXOpenHouseRSVP`.
 - Replace the five social link placeholders with the correct brand profile URLs.
 - Upload `assets/` to your email platform or public HTTPS image host, and replace all relative asset paths, including CSS backgrounds and Outlook VML sources, with their absolute URLs.
 - Use your email platform's CSS inliner while retaining the responsive media query. Send test messages through your platform to Gmail, Apple Mail, and Outlook. Browser validation does not establish email-client compatibility. The hero includes Outlook VML; the gift section's background artwork may fall back to a plain dark background in classic Outlook.
