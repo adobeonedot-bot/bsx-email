@@ -12,3 +12,7 @@ Use this workflow for future email conversions in this repository.
 8. The user prefers GitHub downloads because chat/workspace download links failed. When publication is authorized, commit and push the deliverables to `adobeonedot-bot/bsx-email`, then provide a direct ZIP URL pinned to the resulting commit: `https://github.com/adobeonedot-bot/bsx-email/raw/<commit>/bsx-email-download.zip`. Verify the push succeeded. For a new project or destination, confirm its publication scope first.
 
 Do not claim pixel-perfect matching or email-client testing without evidence. Explain remaining placeholder links and any design discrepancies concisely.
+
+## Mailchimp delivery
+
+For Mailchimp, follow `MAILCHIMP.md` and provide `bsx-email-mailchimp.zip`. Keep critical desktop CSS inline, mobile media queries retained, image assets separate, and Mailchimp footer merge tags present. Flatten the decorative banner gradient into a background asset while retaining editable copy. Do not use the base64 standalone ZIP for Mailchimp. Rebuild and validate the Mailchimp package whenever that variant changes.
